@@ -19,5 +19,7 @@
 
 
 // Quicksort:
-x: 4 3 9 8 5 38 29 4 3 48 3 1;
-$[2>count distinct x;x;raze q each x where each not scan x < rand x]
+// sort an array in n*log(n) time on average
+x: 4 7 3 9 8 53 38 29 4 1 48 3 10;
+q:{$[2>count distinct x;x;raze q each x where each not scan x < rand x]}
+q[x]
