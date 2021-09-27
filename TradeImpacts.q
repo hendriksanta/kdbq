@@ -3,13 +3,14 @@
 
 // #################################
 // In this script we look to analyse market parameters around the point of trade. Such analysis is particularly useful
-// if one wants to extract specific patters related to for example market impact or liquidity provision.
-
-// To kick off, we put together some dummy data and define some helper functions. Our dummy data consists of trade data
-// as well market (price) tick data in the format one would usually expect to see in the context of a trading business.
+// if one wants to extract specific patterns related to for example market impact or liquidity provision.
 // #################################
 
+
 // Dummy Data:
+// To kick off, we put together some dummy data and define some helper functions. Our dummy data consists of trade data
+// as well market (price) tick data in the format one would usually expect to see in the context of a trading business.
+
 
 // Two helper functions:
 
@@ -98,5 +99,5 @@ trades:getTradeData[20]
 // get trade impacts table:
 tradeImpact:pre_post_tradeImpact[trades]
 
-// get aggregated trade impacts across all trades:
+// get impact profiles:
 signature[tradeImpact]
