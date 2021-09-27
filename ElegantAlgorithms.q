@@ -15,3 +15,9 @@
 // and thus run until convergence:
 
 {[xn] xn + (2-xn*xn)%(2*xn)}\[2]
+
+
+
+// Quicksort:
+x: 4 3 9 8 5 38 29 4 3 48 3 1;
+$[2>count distinct x;x;raze q each x where each not scan x < rand x]
