@@ -19,7 +19,3 @@ ElegantAlgorithms:
 A small collection of algorithms implemented with q - in some cases the particular syntax of q makes the implementation
 surprisingly elegant.
 
-- Fibonacci
-- Newton Raphson
-- Quicksort
-
